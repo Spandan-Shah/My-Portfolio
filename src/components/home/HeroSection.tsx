@@ -49,9 +49,9 @@ const HeroSection = () => (
               intelligent, and scalable technology.
             </p>
             <p>
-              I've led investigations into sophisticated Advanced Persistent Threats (APTs), dismantled criminal
-              infrastructure on the dark web, and developed custom security frameworks deployed across Fortune 500
-              companies. My methodology combines technical rigor with strategic thinking.
+              I am not only interested in coding, but also in building complete ecosystems around my ideas, including architecture design, 
+              structured documentation, version control, patent-oriented thinking, startup vision, and research publication goals. I pay close attention to both technical depth and presentation quality, 
+              and I like treating my projects with the seriousness of real products rather than just student submissions.
             </p>
             <p>
               Certified in CISSP, OSCP, CEH, and GCFA, I bring a unique blend of academic research and field experience
