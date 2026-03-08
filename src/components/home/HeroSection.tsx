@@ -1,0 +1,144 @@
+import { Shield, Radar, Search, Microscope, Globe, Newspaper } from "lucide-react";
+import heroBg from "@/assets/hero-bg.jpg";
+import portrait from "@/assets/portrait.jpg";
+import ThreatGlobe from "./ThreatGlobe";
+
+const skills = [
+  "Ethical Hacking", "Nmap", "Wireshark", "Metasploit", "Burp Suite",
+  "Kali Linux", "OSINT", "Splunk", "Snort", "Autopsy",
+];
+
+const focusCards = [
+  { icon: Shield, title: "Cybersecurity", desc: "Advanced threat protection and network defense strategies." },
+  { icon: Search, title: "Criminal Investigations", desc: "Digital evidence analysis for law enforcement agencies." },
+  { icon: Microscope, title: "Digital Forensics", desc: "Deep-dive analysis of compromised systems and data." },
+];
+
+const newsItems = [
+  { title: "Featured in CyberDefense Magazine", date: "Jan 2026" },
+  { title: "TED Talk: The Dark Web Exposed", date: "Nov 2025" },
+  { title: "Wired: Top 30 Under 30 in InfoSec", date: "Sep 2025" },
+];
+
+const HeroSection = () => (
+  <section className="relative overflow-hidden">
+    {/* Background */}
+    <div className="absolute inset-0">
+      <img src={heroBg} alt="Cyber workspace" className="h-full w-full object-cover opacity-30" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/80 to-background" />
+      <div className="scanline absolute inset-0 pointer-events-none" />
+    </div>
+
+    <div className="container relative z-10 py-20 lg:py-28">
+      {/* Hero intro */}
+      <div className="grid gap-12 lg:grid-cols-5">
+        <div className="lg:col-span-3 space-y-6">
+          <p className="font-mono-cyber text-xs tracking-widest text-neon-cyan animate-flicker">
+            // SYSTEM.ONLINE — SECURE CONNECTION ESTABLISHED
+          </p>
+          <h1 className="font-display text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl lg:text-6xl">
+            Hi, I'm <span className="text-primary text-glow-red">[Your Name]</span>
+          </h1>
+          <h2 className="font-display text-lg tracking-wider text-neon-cyan text-glow-cyan md:text-xl">
+            Cyber Security Specialist
+          </h2>
+          <div className="space-y-4 font-body text-base leading-relaxed text-muted-foreground md:text-lg">
+            <p>
+              With over a decade of experience in offensive and defensive cybersecurity, I specialize in penetration testing,
+              incident response, and threat intelligence. My work spans private enterprises, government agencies, and
+              international law enforcement.
+            </p>
+            <p>
+              I've led investigations into sophisticated Advanced Persistent Threats (APTs), dismantled criminal
+              infrastructure on the dark web, and developed custom security frameworks deployed across Fortune 500
+              companies. My methodology combines technical rigor with strategic thinking.
+            </p>
+            <p>
+              Certified in CISSP, OSCP, CEH, and GCFA, I bring a unique blend of academic research and field experience
+              to every engagement. When I'm not defending networks, I'm speaking at conferences and training the next
+              generation of security professionals.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex flex-col items-center gap-6 lg:col-span-2">
+          <div className="relative">
+            <div className="absolute -inset-1 rounded-lg bg-gradient-to-br from-neon-red/30 to-neon-cyan/30 blur-md" />
+            <img
+              src={portrait}
+              alt="Professional portrait"
+              className="relative h-72 w-72 rounded-lg object-cover border border-border lg:h-80 lg:w-80"
+            />
+          </div>
+
+          {/* On the News */}
+          <div className="w-full space-y-3">
+            <h3 className="flex items-center gap-2 font-display text-xs tracking-widest text-foreground">
+              <Newspaper size={14} className="text-primary" /> ON THE NEWS
+            </h3>
+            {newsItems.map((item, i) => (
+              <a
+                key={i}
+                href="#"
+                className="card-neon block rounded-sm p-3 transition-all hover:border-glow-red"
+              >
+                <p className="font-body text-sm text-foreground">{item.title}</p>
+                <p className="font-mono-cyber text-[10px] text-muted-foreground">{item.date}</p>
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* About Me + Focus Cards */}
+      <div className="mt-20">
+        <h2 className="mb-10 text-center font-display text-2xl font-bold tracking-wider md:text-3xl">
+          <span className="text-neon-cyan text-glow-cyan">About</span>{" "}
+          <span className="text-neon-magenta text-glow-magenta">Me</span>
+        </h2>
+        <div className="grid gap-6 md:grid-cols-3">
+          {focusCards.map((card, i) => (
+            <div key={i} className="card-neon group rounded-lg p-6 transition-all">
+              <card.icon className="mb-4 text-primary" size={36} />
+              <h3 className="mb-2 font-display text-sm tracking-wider text-foreground">{card.title}</h3>
+              <p className="font-body text-sm text-muted-foreground leading-relaxed">{card.desc}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Skills */}
+      <div className="mt-16">
+        <h3 className="mb-6 font-display text-sm tracking-widest text-foreground">MY SKILLS</h3>
+        <div className="flex flex-wrap gap-3">
+          {skills.map((skill) => (
+            <span
+              key={skill}
+              className="rounded-sm border border-border bg-surface px-4 py-2 font-mono-cyber text-xs text-muted-foreground transition-colors hover:border-primary hover:text-primary"
+            >
+              {skill}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      {/* 3D Threat Globe */}
+      <div className="mt-20">
+        <div className="mb-6 flex items-center gap-3">
+          <Globe className="text-primary" size={20} />
+          <h3 className="font-display text-sm tracking-widest text-foreground">GLOBAL THREAT SURVEILLANCE</h3>
+          <span className="rounded-sm bg-primary/20 px-2 py-0.5 font-mono-cyber text-[10px] text-primary animate-pulse-glow">
+            LIVE
+          </span>
+        </div>
+        <p className="mb-6 max-w-xl font-body text-sm text-muted-foreground leading-relaxed">
+          Real-time global threat monitoring across <span className="text-primary font-bold">20+ countries</span>.
+          Tracking missile trajectories, satellite networks, and intercepted communications.
+        </p>
+        <ThreatGlobe />
+      </div>
+    </div>
+  </section>
+);
+
+export default HeroSection;
