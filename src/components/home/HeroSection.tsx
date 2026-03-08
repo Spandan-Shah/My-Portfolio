@@ -37,10 +37,10 @@ const HeroSection = () => (
             // SYSTEM.ONLINE — SECURE CONNECTION ESTABLISHED
           </p>
           <h1 className="font-display text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl lg:text-6xl">
-            Hi, I'm <span className="text-primary text-glow-red">[Your Name]</span>
+            Hi, I'm <span className="text-primary text-glow-red">Spandan Shah</span>
           </h1>
           <h2 className="font-display text-lg tracking-wider text-neon-cyan text-glow-cyan md:text-xl">
-            Cyber Security Specialist
+            Student
           </h2>
           <div className="space-y-4 font-body text-base leading-relaxed text-muted-foreground md:text-lg">
             <p>
