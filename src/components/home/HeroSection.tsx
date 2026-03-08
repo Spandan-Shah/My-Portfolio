@@ -1,6 +1,6 @@
 import { Shield, Radar, Search, Microscope, Globe, Newspaper } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
-import portrait from "@/assets/portrait.jpg";
+import portrait from "@/assets/Portrait.png";
 import ThreatGlobe from "./ThreatGlobe";
 
 const skills = [
