@@ -54,9 +54,9 @@ const HeroSection = () => (
               and I like treating my projects with the seriousness of real products rather than just student submissions.
             </p>
             <p>
-              Certified in CISSP, OSCP, CEH, and GCFA, I bring a unique blend of academic research and field experience
-              to every engagement. When I'm not defending networks, I'm speaking at conferences and training the next
-              generation of security professionals.
+              My mindset is growth-oriented, ambitious, and future-focused. I want to transform ideas into impactful products, intellectual property, and meaningful contributions in cybersecurity, intelligent systems, 
+              and next-generation communication technologies. I see myself as someone who is not just learning technology, 
+              but actively using it to engineer original solutions with academic, industrial, and entrepreneurial value.
             </p>
           </div>
         </div>
