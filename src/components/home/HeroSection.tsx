@@ -44,9 +44,9 @@ const HeroSection = () => (
           </h2>
           <div className="space-y-4 font-body text-base leading-relaxed text-muted-foreground md:text-lg">
             <p>
-              With over a decade of experience in offensive and defensive cybersecurity, I specialize in penetration testing,
-              incident response, and threat intelligence. My work spans private enterprises, government agencies, and
-              international law enforcement.
+              I am a highly driven and innovation-focused engineering student with a deep passion for cybersecurity, 
+              embedded systems, artificial intelligence, and full-stack development. I enjoy building ambitious projects that solve real-world problems through secure, 
+              intelligent, and scalable technology.
             </p>
             <p>
               I've led investigations into sophisticated Advanced Persistent Threats (APTs), dismantled criminal
