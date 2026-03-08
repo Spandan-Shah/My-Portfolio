@@ -1,5 +1,5 @@
 import Layout from "@/components/Layout";
-import portrait from "@/assets/portrait.jpg";
+import portrait from "@/assets/Portrait.png";
 import { Award, ShieldCheck, BookOpen, Target } from "lucide-react";
 
 const timeline = [
