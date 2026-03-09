@@ -20,7 +20,7 @@ const Footer = () => (
             <span className="text-foreground">./PORTFOLIO</span>
             <span className="text-primary">.</span>
           </Link>
-          <p className="mt-4 font-jet text-sm text-muted-foreground leading-relaxed">
+          <p className="mt-4 font-jet text-sm text-foreground leading-relaxed">
             Cybersecurity specialist dedicated to protecting digital assets and investigating cyber threats across the globe.
           </p>
         </div>
@@ -32,7 +32,7 @@ const Footer = () => (
               <Link
                 key={item}
                 to={item === "Home" ? "/" : `/${item.toLowerCase()}`}
-                className="font-jet text-sm text-muted-foreground transition-colors hover:text-primary"
+                className="font-jet text-sm text-foreground transition-colors hover:text-primary"
               >
                 {item}
               </Link>
@@ -44,7 +44,7 @@ const Footer = () => (
           <h4 className="mb-4 font-jet text-md tracking-widest text-foreground">SERVICES</h4>
           <div className="flex flex-col gap-2">
             {["Cybersecurity", "Threat Analysis", "Criminal Investigations", "Digital Forensics"].map((s) => (
-              <span key={s} className="font-jet text-sm text-muted-foreground">{s}</span>
+              <span key={s} className="font-jet text-sm text-foreground">{s}</span>
             ))}
           </div>
         </div>
@@ -59,7 +59,7 @@ const Footer = () => (
                   href={href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-muted-foreground transition-colors hover:text-primary"
+                  className="text-foreground transition-colors hover:text-primary"
                 >
                   <Icon size={20} />
 
