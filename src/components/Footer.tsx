@@ -6,24 +6,24 @@ const Footer = () => (
     <div className="container">
       <div className="grid gap-8 md:grid-cols-4">
         <div>
-          <Link to="/" className="font-display text-lg tracking-widest">
-            <span className="text-muted-foreground">/ &gt;</span>{" "}
-            <span className="text-foreground">PORTFOLIO</span>
+          <Link to="/" className="font-jet text-lg tracking-widest">
+            <span className="text-muted-foreground"></span>{" "}
+            <span className="text-foreground">./PORTFOLIO</span>
             <span className="text-primary">.</span>
           </Link>
-          <p className="mt-4 font-body text-sm text-muted-foreground leading-relaxed">
+          <p className="mt-4 font-jet text-sm text-muted-foreground leading-relaxed">
             Cybersecurity specialist dedicated to protecting digital assets and investigating cyber threats across the globe.
           </p>
         </div>
 
         <div>
-          <h4 className="mb-4 font-display text-xs tracking-widest text-foreground">NAVIGATION</h4>
+          <h4 className="mb-4 font-jet text-md tracking-widest text-foreground">NAVIGATION</h4>
           <div className="flex flex-col gap-2">
             {["Home", "About", "Portfolio", "Services", "Contact"].map((item) => (
               <Link
                 key={item}
                 to={item === "Home" ? "/" : `/${item.toLowerCase()}`}
-                className="font-body text-sm text-muted-foreground transition-colors hover:text-primary"
+                className="font-jet text-sm text-muted-foreground transition-colors hover:text-primary"
               >
                 {item}
               </Link>
@@ -32,16 +32,16 @@ const Footer = () => (
         </div>
 
         <div>
-          <h4 className="mb-4 font-display text-xs tracking-widest text-foreground">SERVICES</h4>
+          <h4 className="mb-4 font-jet text-md tracking-widest text-foreground">SERVICES</h4>
           <div className="flex flex-col gap-2">
             {["Cybersecurity", "Threat Analysis", "Criminal Investigations", "Digital Forensics"].map((s) => (
-              <span key={s} className="font-body text-sm text-muted-foreground">{s}</span>
+              <span key={s} className="font-jet text-sm text-muted-foreground">{s}</span>
             ))}
           </div>
         </div>
 
         <div>
-          <h4 className="mb-4 font-display text-xs tracking-widest text-foreground">CONNECT</h4>
+          <h4 className="mb-4 font-jet text-md tracking-widest text-foreground">CONNECT</h4>
           <div className="flex gap-4">
             {[Github, Linkedin, Twitter, Mail].map((Icon, i) => (
               <a
@@ -57,8 +57,8 @@ const Footer = () => (
       </div>
 
       <div className="mt-10 border-t border-border pt-6 text-center">
-        <p className="font-mono-cyber text-xs text-muted-foreground">
-          © 2026 CyberSec Portfolio. All rights reserved. Built with precision.
+        <p className="font-sans text-sm text-muted-foreground">
+          © 2026 Spandan Shah Portfolio. All rights reserved. Built with precision.
         </p>
       </div>
     </div>
