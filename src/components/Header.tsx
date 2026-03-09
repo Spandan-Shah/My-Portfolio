@@ -5,7 +5,7 @@ import { Menu, X } from "lucide-react";
 const navItems = [
   { label: "Home", path: "/" },
   { label: "About", path: "/about" },
-  { label: "Portfolio", path: "/portfolio" },
+  { label: "Projects", path: "/projects" },
   { label: "Services", path: "/services" },
   { label: "Contact", path: "/contact" },
 ];
@@ -17,9 +17,9 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-background/80 backdrop-blur-xl">
       <div className="container flex h-16 items-center justify-between">
-        <Link to="/" className="font-display text-lg tracking-widest">
-          <span className="text-muted-foreground">/ &gt;</span>{" "}
-          <span className="text-foreground">PORTFOLIO</span>
+        <Link to="/" className="font-jet text-lg tracking-widest">
+          <span className="text-foreground">$sudo</span>{" "}
+          <span className="text-foreground">./PORTFOLIO.sh</span>
           <span className="text-primary">.</span>
         </Link>
 
@@ -28,8 +28,8 @@ const Header = () => {
             <Link
               key={item.path}
               to={item.path}
-              className={`font-body text-sm tracking-wider transition-colors hover:text-primary ${
-                location.pathname === item.path ? "text-primary" : "text-muted-foreground"
+              className={`font-jet text-sm tracking-wider transition-colors hover:text-primary ${
+                location.pathname === item.path ? "text-primary" : "text-foreground"
               }`}
             >
               {item.label}
