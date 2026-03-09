@@ -1,6 +1,16 @@
 import { Link } from "react-router-dom";
 import { Github, Linkedin, Twitter, Mail } from "lucide-react";
 
+const sociallinks =
+[
+  {
+    { icon: Github, href: "https://github.com/your-username" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/your-username" },
+    { icon: Twitter, href: "https://twitter.com/your-username" },
+    { icon: Mail, href: "mailto:your-email@example.com" },
+  }
+];
+
 const Footer = () => (
   <footer className="border-t border-border bg-background py-12">
     <div className="container">
@@ -50,6 +60,7 @@ const Footer = () => (
                 className="text-muted-foreground transition-colors hover:text-primary"
               >
                 <Icon size={20} />
+                
               </a>
             ))}
           </div>
