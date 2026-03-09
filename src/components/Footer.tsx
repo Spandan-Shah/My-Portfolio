@@ -1,14 +1,13 @@
 import { Link } from "react-router-dom";
 import { Github, Linkedin, Twitter, Mail } from "lucide-react";
 
-const sociallinks =
-[
-  {
-    { icon: Github, href: "https://github.com/your-username" },
-    { icon: Linkedin, href: "https://www.linkedin.com/in/your-username" },
+const socialLinks = [
+  
+    { icon: Github, href: "https://github.com/Spandan-Shah" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/spandan-shah0312/" },
     { icon: Twitter, href: "https://twitter.com/your-username" },
-    { icon: Mail, href: "mailto:your-email@example.com" },
-  }
+    { icon: Mail, href: "mailto:spandanshah10@gmail.com" },
+  
 ];
 
 const Footer = () => (
@@ -53,16 +52,22 @@ const Footer = () => (
         <div>
           <h4 className="mb-4 font-jet text-md tracking-widest text-foreground">CONNECT</h4>
           <div className="flex gap-4">
-            {[Github, Linkedin, Twitter, Mail].map((Icon, i) => (
-              <a
-                key={i}
-                href="#"
-                className="text-muted-foreground transition-colors hover:text-primary"
-              >
-                <Icon size={20} />
-                
-              </a>
-            ))}
+
+              {socialLinks.map(({icon: Icon, href}, i) => (
+                <a
+                  key={i}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground transition-colors hover:text-primary"
+                >
+                  <Icon size={20} />
+
+                </a>  
+              )
+              )}
+           
+
           </div>
         </div>
       </div>
