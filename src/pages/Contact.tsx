@@ -94,8 +94,8 @@ const Contact = () => {
                       <item.icon className="text-primary" size={16} />
                     </div>
                     <div>
-                      <p className="font-display text-xs tracking-wider text-muted-foreground">{item.label}</p>
-                      <p className="font-body text-sm text-foreground">{item.value}</p>
+                      <p className="font-display text-lg tracking-wider text-muted-foreground">{item.label}</p>
+                      <p className="font-body text-lg text-foreground">{item.value}</p>
                     </div>
                   </div>
                 ))}
