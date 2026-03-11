@@ -18,7 +18,7 @@ const Contact = () => {
         <div className="container">
           <p className="font-mono-cyber text-xs tracking-widest text-neon-cyan mb-2">// CONTACT</p>
           <h1 className="mb-16 font-display text-3xl font-bold tracking-wider text-foreground md:text-4xl">
-            Get In <span className="text-primary text-glow-red">Touch</span>
+            Get In <span className="text-primary">Touch</span>
           </h1>
 
           <div className="grid gap-12 lg:grid-cols-3">
@@ -82,10 +82,10 @@ const Contact = () => {
             </form>
 
             <div className="space-y-8">
-              <h2 className="font-display text-sm tracking-widest text-foreground">DIRECT CONTACT</h2>
+              <h2 className="font-display text-xl tracking-widest text-foreground">DIRECT CONTACT</h2>
               <div className="space-y-6">
                 {[
-                  { icon: Mail, label: "Email", value: "contact@cybersec.pro" },
+                  { icon: Mail, label: "Email", value: "spandanshah10@gmail.com" },
                   { icon: Phone, label: "Phone", value: "+1 (555) 0x3E8" },
                   { icon: MapPin, label: "Location", value: "Washington, D.C." },
                 ].map((item, i) => (
