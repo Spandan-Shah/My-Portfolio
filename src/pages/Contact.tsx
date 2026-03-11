@@ -86,8 +86,8 @@ const Contact = () => {
               <div className="space-y-6">
                 {[
                   { icon: Mail, label: "Email", value: "spandanshah10@gmail.com" },
-                  { icon: Phone, label: "Phone", value: "+1 (555) 0x3E8" },
-                  { icon: MapPin, label: "Location", value: "Washington, D.C." },
+                  { icon: Phone, label: "Phone", value: "+91 7984179055" },
+                  { icon: MapPin, label: "Location", value: "Ahmedabad, Gujarat, India" },
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-4">
                     <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-border bg-surface">
