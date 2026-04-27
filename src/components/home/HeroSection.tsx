@@ -15,9 +15,8 @@ const focusCards = [
 ];
 
 const newsItems = [
-  { title: "Featured in CyberDefense Magazine", date: "Jan 2026" },
-  { title: "TED Talk: The Dark Web Exposed", date: "Nov 2025" },
-  { title: "Wired: Top 30 Under 30 in InfoSec", date: "Sep 2025" },
+  { title: "Selected For Smart India Hackathon - 2024", date: "Dec 2024" },
+
 ];
 
 const HeroSection = () => (
