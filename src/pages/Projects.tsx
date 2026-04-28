@@ -63,8 +63,9 @@ const Portfolio = () => (
             </div>
           ))}
         </div>
-
+        <div className="mt-6">
         <TimelineDemo />
+        </div>
 
         {/* Tool Kit */}
         <div className="mt-24">
