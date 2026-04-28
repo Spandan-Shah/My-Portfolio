@@ -12,7 +12,7 @@ export function TimelineDemo() {
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="https://assets.aceternity.com/templates/startup-1.webp"
+              src="../assets/TimeLine/result2024.png"
               alt="startup template"
               width={500}
               height={500}
