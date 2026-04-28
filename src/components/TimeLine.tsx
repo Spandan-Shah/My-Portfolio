@@ -93,12 +93,12 @@ export function TimelineDemo() {
       title: "2026",
       content: (
         <div>
-          <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+          <p className="mb-4 text-xs font-normal text-neutral-800 md:text-xl dark:text-neutral-200">
             Project: GoblinWisp
           </p>
           
           <div className="mb-8">
-            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
+            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-xl dark:text-neutral-300">
               This project builds a secure two-way text communication link between two ESP32 devices using ESP-NOW (no router required). Each device uses buttons + an OLED to select, send, and display predefined messages in real time. All wireless messages are protected with end-to-end cryptography—X25519 key exchange, HKDF key derivation, and AES-GCM authenticated encryption—to prevent eavesdropping, tampering, replay attacks, and reduce the risk of MITM after pairing/key-pinning.
             </div>
 
