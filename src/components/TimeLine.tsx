@@ -7,7 +7,7 @@ export function TimelineDemo() {
       title: "2024",
       content: (
         <div>
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-xl dark:text-neutral-200">
             Smart India Hackathon 2024
           </p>
           <div className="grid grid-cols-2 gap-4">
