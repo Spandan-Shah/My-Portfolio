@@ -41,7 +41,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         <h2 className="w-full text-3xl md:text-5xl font-bold mb-4 text-black dark:text-white">
           Timeline Of My Journey
         </h2>
-        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-4xl">
+        <p className="mx-auto text-center text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-4xl">
             A driven and curious computer engineering student with a strong passion for technology, problem-solving, and continuous learning. Over the past two years, you’ve actively built your skills through hands-on projects, coding, and exploring domains like cybersecurity, development, and innovation—constantly pushing yourself to grow and create meaningful impact.
         </p>
       </div>
