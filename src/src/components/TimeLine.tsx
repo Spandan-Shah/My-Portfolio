@@ -44,7 +44,7 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "2025",
+      title: "Early 2023",
       content: (
         <div>
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
