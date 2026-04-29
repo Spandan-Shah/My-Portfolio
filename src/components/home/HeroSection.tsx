@@ -35,8 +35,8 @@ const HeroSection = () => (
           <p className="font-mono-cyber text-md tracking-widest text-white animate-flicker">
             // SYSTEM.ONLINE — SECURE CONNECTION ESTABLISHED
           </p>
-          <h1 className="font-display text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl lg:text-6xl">
-            Hi, I'm <span className="text-primary text-glow-red">Spandan Shah</span>
+          <h1 className="font-mono-cyber text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl lg:text-6xl">
+            Hi, I'm <span className="text-primary text-red">Spandan Shah</span>
           </h1>
           <h2 className="font-display text-lg tracking-wider text-neon-cyan text-glow-cyan md:text-xl">
             Student
