@@ -48,9 +48,7 @@ const About = () => (
                 Over time, I have developed hands-on experience with tools and technologies such as ethical hacking frameworks, network analysis tools, and modern development stacks. My learning approach is highly practical—I prefer building real-world projects, experimenting with new concepts, and continuously improving through iteration and problem-solving.
               </p>
               <p>
-                I approach every case with methodical precision and an unwavering commitment to uncovering the truth.
-                Whether conducting a penetration test, analyzing malware, or testifying as an expert witness, I bring the
-                same level of dedication and thoroughness.
+                Beyond coding, I am deeply interested in system architecture, documentation, and structured development workflows. I treat projects not just as assignments but as complete products, focusing on performance, security, usability, and presentation.
               </p>
             </div>
           </div>
