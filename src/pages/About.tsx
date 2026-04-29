@@ -50,6 +50,9 @@ const About = () => (
               <p>
                 Beyond coding, I am deeply interested in system architecture, documentation, and structured development workflows. I treat projects not just as assignments but as complete products, focusing on performance, security, usability, and presentation.
               </p>
+              <p>
+                I also actively explore areas like IoT systems, embedded development, and secure communication architectures, combining both hardware and software perspectives to build innovative solutions.
+              </p>
             </div>
           </div>
         </div>
