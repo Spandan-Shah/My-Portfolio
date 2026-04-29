@@ -42,13 +42,13 @@ const HeroSection = () => (
             Spandan Shah
           </span>
         </h1>
-          <h2 className="font-display text-lg tracking-wider text-yellow-500 md:text-xl">
+          <h2 className="font-display text-lg tracking-widest text-yellow-500 md:text-xl">
             <TypeAnimation
               sequence={[
-                "Cybersecurity Enthusiast", 2000,
-                "Full Stack Developer", 2000,
-                "IoT Explorer", 2000,
-                "Ethical Hacker", 2000,
+                "CYBERSECURITY ENTHUSIAST", 2000,
+                "FULL STACK DEVELOPER", 2000,
+                "IoT EXPLORER", 2000,
+                "ETHICAL HACKER", 2000,
               ]}
               wrapper="span"
               speed={50}
