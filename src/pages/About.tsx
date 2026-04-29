@@ -53,6 +53,9 @@ const About = () => (
               <p>
                 I also actively explore areas like IoT systems, embedded development, and secure communication architectures, combining both hardware and software perspectives to build innovative solutions.
               </p>
+              <p>
+                My long-term goal is to contribute to impactful technologies in cybersecurity, intelligent systems, and advanced communication, while also working towards research, product development, and entrepreneurial ventures.
+              </p>
             </div>
           </div>
         </div>
