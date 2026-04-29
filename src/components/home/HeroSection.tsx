@@ -2,6 +2,7 @@ import { Shield, Radar, Search, Microscope, Globe, Newspaper } from "lucide-reac
 import heroBg from "@/assets/hero-bg.jpg";
 import portrait from "@/assets/Portrait.png";
 import ThreatGlobe from "./ThreatGlobe";
+import { TypeAnimation } from 'react-type-animation';
 
 const skills = [
   "Ethical Hacking", "Nmap", "Wireshark", "Metasploit", "Burp Suite",
@@ -39,7 +40,18 @@ const HeroSection = () => (
             Hi, I'm <span className="text-primary text-red">Spandan Shah</span>
           </h1>
           <h2 className="font-display text-lg tracking-wider text-yellow-500 md:text-xl">
-            Student
+            <TypeAnimation
+              sequence={[
+                "Cybersecurity Enthusiast", 2000,
+                "Full Stack Developer", 2000,
+                "IoT Explorer", 2000,
+                "Ethical Hacker", 2000,
+              ]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+              deletionSpeed={30}
+            />
           </h2>
           <div className="space-y-4 font-body text-base leading-relaxed text-white md:text-lg lg:text-2xl">
             <p>
