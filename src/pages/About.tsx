@@ -1,5 +1,5 @@
 import Layout from "@/components/Layout";
-import portrait from "@/assets/Portrait.png";
+import portrait from "../assets/Portrait.png";
 import { Award, ShieldCheck, BookOpen, Target } from "lucide-react";
 
 const timeline = [
@@ -42,9 +42,7 @@ const About = () => (
             </h2>
             <div className="space-y-4 font-body text-base text-muted-foreground leading-relaxed">
               <p>
-                My mission is to make the digital world safer through proactive security measures, rigorous investigation,
-                and knowledge sharing. I believe that cybersecurity is not just about technology — it's about understanding
-                human behavior, anticipating adversarial thinking, and building resilient systems.
+                I am a passionate and growth-driven Computer Engineering student with a strong focus on cybersecurity, software development, and emerging technologies. I enjoy exploring the deeper layers of systems—whether it’s understanding how networks operate, analyzing security vulnerabilities, or building full-stack applications with clean and scalable design.
               </p>
               <p>
                 Over the past decade, I've had the privilege of working with some of the most talented security professionals
@@ -60,24 +58,7 @@ const About = () => (
           </div>
         </div>
 
-        {/* Timeline */}
-        <div className="mt-24">
-          <h2 className="mb-12 font-display text-xl tracking-wider text-foreground">
-            Professional <span className="text-primary">Timeline</span>
-          </h2>
-          <div className="relative space-y-8 border-l-2 border-border pl-8">
-            {timeline.map((item, i) => (
-              <div key={i} className="relative">
-                <div className="absolute -left-[41px] flex h-5 w-5 items-center justify-center rounded-full border-2 border-primary bg-background">
-                  <div className="h-2 w-2 rounded-full bg-primary" />
-                </div>
-                <span className="font-mono-cyber text-xs text-primary">{item.year}</span>
-                <h3 className="mt-1 font-display text-sm tracking-wider text-foreground">{item.title}</h3>
-                <p className="mt-1 font-body text-sm text-muted-foreground">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
+    
 
         {/* Certifications */}
         <div className="mt-24">
