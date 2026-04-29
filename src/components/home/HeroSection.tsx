@@ -81,8 +81,8 @@ const HeroSection = () => (
                 href="#"
                 className="card-neon block rounded-sm p-3 transition-all hover:border-glow-red"
               >
-                <p className="font-body text-sm text-foreground">{item.title}</p>
-                <p className="font-mono-cyber text-[10px] text-muted-foreground">{item.date}</p>
+                <p className="font-body text-xl text-foreground">{item.title}</p>
+                <p className="font-mono-cyber text-[18px] text-muted-foreground">{item.date}</p>
               </a>
             ))}
           </div>
