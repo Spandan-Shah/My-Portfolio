@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-background/80 backdrop-blur-xl">
-      <div className="container flex h-16 items-center justify-between">
+      <div className="mx-16 flex h-16 items-center justify-between">
         <Link to="/" className="font-jet text-lg tracking-widest">
           <span className="text-foreground">$sudo</span>{" "}
           <span className="text-foreground">./PORTFOLIO.sh</span>
