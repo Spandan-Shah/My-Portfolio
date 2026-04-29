@@ -28,7 +28,7 @@ const Header = () => {
             <Link
               key={item.path}
               to={item.path}
-              className={`font-jet text-sm tracking-wider transition-colors hover:text-primary ${
+              className={`font-jet text-lg tracking-wider transition-colors hover:text-primary ${
                 location.pathname === item.path ? "text-primary" : "text-foreground"
               }`}
             >
