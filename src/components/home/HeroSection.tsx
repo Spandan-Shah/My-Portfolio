@@ -41,7 +41,7 @@ const HeroSection = () => (
           <h2 className="font-display text-lg tracking-wider text-yellow-500 md:text-xl">
             Student
           </h2>
-          <div className="space-y-4 font-body text-base leading-relaxed text-muted-foreground md:text-lg">
+          <div className="space-y-4 font-body text-base leading-relaxed text-white md:text-lg lg:text-2xl">
             <p>
               I am a highly driven and innovation-focused engineering student with a deep passion for cybersecurity, 
               embedded systems, artificial intelligence, and full-stack development. I enjoy building ambitious projects that solve real-world problems through secure, 
