@@ -28,11 +28,11 @@ const HeroSection = () => (
       <div className="scanline absolute inset-0 pointer-events-none" />
     </div>
 
-    <div className="container relative z-10 py-20 lg:py-28">
+    <div className="relative z-10 w-full px-6 py-20 lg:px-16 lg:py-28 lg:mx-16">
       {/* Hero intro */}
       <div className="grid gap-12 lg:grid-cols-5">
         <div className="lg:col-span-3 space-y-6">
-          <p className="font-mono-cyber text-xs tracking-widest text-neon-cyan animate-flicker">
+          <p className="font-mono-cyber text-md tracking-widest text-white animate-flicker">
             // SYSTEM.ONLINE — SECURE CONNECTION ESTABLISHED
           </p>
           <h1 className="font-display text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl lg:text-6xl">
