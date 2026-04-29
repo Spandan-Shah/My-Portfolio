@@ -38,7 +38,7 @@ const HeroSection = () => (
           <h1 className="font-mono-cyber text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl lg:text-6xl">
             Hi, I'm <span className="text-primary text-red">Spandan Shah</span>
           </h1>
-          <h2 className="font-display text-lg tracking-wider text-neon-cyan text-glow-cyan md:text-xl">
+          <h2 className="font-display text-lg tracking-wider text-yellow-500 md:text-xl">
             Student
           </h2>
           <div className="space-y-4 font-body text-base leading-relaxed text-muted-foreground md:text-lg">
