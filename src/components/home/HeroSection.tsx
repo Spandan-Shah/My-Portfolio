@@ -72,8 +72,8 @@ const HeroSection = () => (
 
           {/* On the News */}
           <div className="w-full space-y-3 pr-10 px-5">
-            <h3 className="flex items-center gap-2 font-display text-xs tracking-widest text-foreground">
-              <Newspaper size={14} className="text-primary" /> ON THE NEWS
+            <h3 className="flex items-center gap-2 font-display tracking-wider text-xl text-white">
+              <Newspaper size={14} className="text-primary" /> My Achievements
             </h3>
             {newsItems.map((item, i) => (
               <a
