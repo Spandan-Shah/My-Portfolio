@@ -45,9 +45,7 @@ const About = () => (
                 I am a passionate and growth-driven Computer Engineering student with a strong focus on cybersecurity, software development, and emerging technologies. I enjoy exploring the deeper layers of systems—whether it’s understanding how networks operate, analyzing security vulnerabilities, or building full-stack applications with clean and scalable design.
               </p>
               <p>
-                Over the past decade, I've had the privilege of working with some of the most talented security professionals
-                in the world. From government agencies to Fortune 500 companies, every engagement has reinforced my belief
-                that the best defense is a combination of cutting-edge technology and exceptional people.
+                Over time, I have developed hands-on experience with tools and technologies such as ethical hacking frameworks, network analysis tools, and modern development stacks. My learning approach is highly practical—I prefer building real-world projects, experimenting with new concepts, and continuously improving through iteration and problem-solving.
               </p>
               <p>
                 I approach every case with methodical precision and an unwavering commitment to uncovering the truth.
