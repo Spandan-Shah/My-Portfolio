@@ -19,8 +19,8 @@ const SpotlightSection = () => (
         </div>
 
         <div className="space-y-6">
-          <span className="inline-block rounded-sm border border-primary/30 bg-primary/10 px-3 py-1 font-mono-cyber text-[10px] tracking-wider text-primary">
-            CLASSIFIED — CLEARANCE REQUIRED
+          <span className="inline-block rounded-sm border border-primary/30 bg-primary/10 px-3 py-1 font-mono-cyber text-[15px] tracking-wider text-primary">
+            CLASSIFIED — PATENTED PROJECT
           </span>
           <h3 className="font-display text-xl font-bold tracking-wider text-foreground md:text-2xl">
             GoblinWisp:{" "}
@@ -28,7 +28,7 @@ const SpotlightSection = () => (
           </h3>
             <div className="space-y-5 font-body text-sm leading-7 text-white md:text-base lg:text-lg">
   <p>
-    <span className="font-mono-cyber text-neon-cyan">Field of the Invention: </span>
+    <span className="font-mono-cyber text-yellow-500">Field of the Invention: </span>
     The present invention relates to secure communication architectures for peer devices operating without centralized infrastructure.
   </p>
 
@@ -41,7 +41,7 @@ const SpotlightSection = () => (
   </p>
 
   <p>
-    <span className="font-mono-cyber text-neon-cyan">Background of the Invention: </span>
+    <span className="font-mono-cyber text-yellow-500">Background of the Invention: </span>
     Secure communication protocols commonly depend on centralized certificate authorities, trusted third-party servers, or network-based key distribution systems.
   </p>
 
@@ -50,7 +50,7 @@ const SpotlightSection = () => (
   </p>
 
   <p>
-    <span className="font-mono-cyber text-neon-cyan">Summary of the Invention: </span>
+    <span className="font-mono-cyber text-yellow-500">Summary of the Invention: </span>
     The invention provides a directionally isolated secure session architecture that forms a cryptographically partitioned bidirectional secure channel framework between peer devices.
   </p>
 
