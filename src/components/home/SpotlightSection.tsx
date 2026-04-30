@@ -26,16 +26,42 @@ const SpotlightSection = () => (
             GoblinWisp:{" "}
             <span className="text-primary text-glow-red">Secure Session Protocol</span>
           </h3>
-          <p className="font-body text-base text-muted-foreground leading-relaxed">
-            A multi-month investigation into an international dark web marketplace facilitating the sale of
-            stolen credentials, zero-day exploits, and ransomware-as-a-service kits. Working alongside
-            Interpol and the FBI's Cyber Division, our team mapped the infrastructure, identified key
-            operators, and contributed to the successful takedown of the platform.
-          </p>
-          <p className="font-body text-base text-muted-foreground leading-relaxed">
-            The operation resulted in 47 arrests across 12 countries and the seizure of over $30 million
-            in cryptocurrency assets, making it one of the largest coordinated cyber operations of 2025.
-          </p>
+            <div className="space-y-5 font-body text-sm leading-7 text-white md:text-base lg:text-lg">
+  <p>
+    <span className="font-mono-cyber text-neon-cyan">Field of the Invention: </span>
+    The present invention relates to secure communication architectures for peer devices operating without centralized infrastructure.
+  </p>
+
+  <p>
+    More particularly, the invention relates to a directionally isolated, identity-bound secure session architecture that establishes mutually authenticated, replay-resistant, forward-secure communication between peer devices across infrastructure-free environments.
+  </p>
+
+  <p>
+    The architecture is designed for implementation in firmware, software, hardware, or combinations thereof across diverse communication media.
+  </p>
+
+  <p>
+    <span className="font-mono-cyber text-neon-cyan">Background of the Invention: </span>
+    Secure communication protocols commonly depend on centralized certificate authorities, trusted third-party servers, or network-based key distribution systems.
+  </p>
+
+  <p>
+    In infrastructure-free environments such as embedded wireless devices, autonomous radio systems, industrial edge nodes, decentralized peer applications, ad-hoc networks, and distributed machine-to-machine systems, centralized authentication infrastructure is unavailable, undesirable, or operationally impractical.
+  </p>
+
+  <p>
+    <span className="font-mono-cyber text-neon-cyan">Summary of the Invention: </span>
+    The invention provides a directionally isolated secure session architecture that forms a cryptographically partitioned bidirectional secure channel framework between peer devices.
+  </p>
+
+  <p>
+    Each communication direction functions as an independent cryptographic state machine with its own encryption context, counter domain, and replay validation state.
+  </p>
+
+  <p>
+    The architecture operates independently of the underlying transport medium and supports deployment across wireless communication systems, radio frequency devices, wired peer links, mesh networking nodes, long-range communication modules, satellite-based links, and software-based peer communication platforms.
+  </p>
+</div>
         </div>
       </div>
     </div>
