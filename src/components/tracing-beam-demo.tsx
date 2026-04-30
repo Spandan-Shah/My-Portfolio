@@ -11,10 +11,17 @@ export default function TracingBeamDemo() {
     <TracingBeam className="px-6">
       <div className="max-w-2xl mx-auto antialiased pt-4 relative">
         {dummyContent.map((item, index) => (
-          <div key={`content-${index}`} className="mb-10">
-            <h2 className="bg-black text-white rounded-full text-sm w-fit px-4 py-1 mb-4">
-              {item.badge}
-            </h2>
+          <div key={index} className="mb-10">
+            <div className="mb-4 flex flex-wrap gap-2">
+              {(item.badges ?? [item.badge]).map((badge, i) => (
+  <span
+    key={i}
+    className="rounded-full border border-border bg-black px-3 py-1 text-lg text-white"
+  >
+    {badge}
+  </span>
+))}
+            </div>
 
            <p className={twMerge("font-mono-cyber text-xl mb-4")}> 
               {item.title}
@@ -42,6 +49,38 @@ export default function TracingBeamDemo() {
 const dummyContent = [
   {
     title: "GoblinWisp Secure Session Protocol",
+badges: [
+  "ESP32",
+  "ESP-NOW",
+  "Embedded C/C++",
+  "Arduino IDE",
+  "PlatformIO",
+  "mbedTLS",
+  "X25519",
+  "ECDH",
+  "HKDF-SHA256",
+  "AES-GCM",
+  "AEAD",
+  "Nonce Management",
+  "Replay Protection",
+  "MITM Mitigation",
+  "Key Pinning",
+  "Session Key Exchange",
+  "Secure Protocol Design",
+  "Peer Authentication",
+  "Packet Validation",
+  "MAC Address Pairing",
+  "Wi-Fi STA Mode",
+  "IoT Security",
+  "Embedded Security",
+  "Wireless Security",
+  "Firmware Development",
+  "OLED SSD1306",
+  "I2C",
+  "Button Debouncing",
+  "Event-Driven Callbacks",
+  "Resource-Constrained Systems",
+],
     description: (
       <>
       <div className="space-y-4 font-body text-base leading-relaxed text-white md:text-lg lg:text-xl">
@@ -67,7 +106,7 @@ const dummyContent = [
       </div>
       </>
     ),
-    badge: "React",
+    badge: "",
     image:GSSP,
   },
   {
