@@ -40,12 +40,14 @@ const Portfolio = () => (
     <section className="py-20">
       <div className="container">
         <p className="font-mono-cyber text-xs tracking-widest text-neon-cyan mb-2">// PORTFOLIO</p>
-        <h1 className="mb-16 font-display text-3xl font-bold tracking-wider text-foreground md:text-4xl">
-          <span className="text-neon-cyan text-glow-cyan">Pro</span>
-          <span className="text-primary text-glow-red">jects</span>
+        <h1 className="font-mono-cyber text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl lg:text-4xl">
+          
+          <span className="animate-gradient bg-gradient-to-r from-purple-600 via-red-500 to-green-600 bg-[length:200%_200%] bg-clip-text text-transparent">
+            Projects
+          </span>
         </h1>
 
-        <div className="grid gap-6 lg:grid-cols-3">
+        <div className="grid gap-6 lg:grid-cols-3 py-5">
           {projects.map((project, i) => (
             <div key={i} className="card-neon group rounded-lg p-6 transition-all">
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg border border-border bg-background">
