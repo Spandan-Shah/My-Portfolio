@@ -23,8 +23,8 @@ const SpotlightSection = () => (
             CLASSIFIED — CLEARANCE REQUIRED
           </span>
           <h3 className="font-display text-xl font-bold tracking-wider text-foreground md:text-2xl">
-            Recent Deep-State Analysis:{" "}
-            <span className="text-primary text-glow-red">Operation Dark Net</span>
+            GoblinWisp:{" "}
+            <span className="text-primary text-glow-red">Secure Session Protocol</span>
           </h3>
           <p className="font-body text-base text-muted-foreground leading-relaxed">
             A multi-month investigation into an international dark web marketplace facilitating the sale of
