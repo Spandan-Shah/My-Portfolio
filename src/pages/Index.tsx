@@ -4,6 +4,7 @@ import SpyHUD from "@/components/home/SpyHUD";
 import ExpertiseSection from "@/components/home/ExpertiseSection";
 import SpotlightSection from "@/components/home/SpotlightSection";
 import AlertsCasesSection from "@/components/home/AlertsCasesSection";
+import TracingBeamDemo from "@/components/tracing-beam-demo";
 
 const Index = () => (
   <Layout>
@@ -21,7 +22,14 @@ const Index = () => (
     <ExpertiseSection />
     <SpotlightSection />
     <AlertsCasesSection />
+
+    <section className="mt-20 pb-40">
+      <div className="container">
+        <TracingBeamDemo />
+      </div>
+    </section>
   </Layout>
+
 );
 
 export default Index;
