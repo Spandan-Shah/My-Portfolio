@@ -39,7 +39,7 @@ const Portfolio = () => (
   <Layout>
     <section className="py-20">
       <div className="container">
-        <p className="font-mono-cyber text-xs tracking-widest text-neon-cyan mb-2">// PORTFOLIO</p>
+        <p className="font-mono-cyber text-md tracking-widest text-white mb-2">// PORTFOLIO</p>
         <h1 className="font-mono-cyber text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl lg:text-4xl">
           
           <span className="animate-gradient bg-gradient-to-r from-purple-600 via-red-500 to-green-600 bg-[length:200%_200%] bg-clip-text text-transparent">
