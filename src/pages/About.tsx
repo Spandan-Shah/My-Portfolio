@@ -40,7 +40,8 @@ const About = () => (
             <h2 className="font-display text-xl tracking-wider text-foreground">
               Mission & <span className="text-neon-cyan text-glow-cyan">Philosophy</span>
             </h2>
-            <div className="space-y-4 font-body text-base text-muted-foreground leading-relaxed">
+
+            <div className="space-y-4 font-body text-xl text-foreground leading-relaxed">
               <p>
                 I am a passionate and growth-driven Computer Engineering student with a strong focus on cybersecurity, software development, and emerging technologies. I enjoy exploring the deeper layers of systems—whether it’s understanding how networks operate, analyzing security vulnerabilities, or building full-stack applications with clean and scalable design.
               </p>
