@@ -43,29 +43,27 @@ const dummyContent = [
     title: "GoblinWisp Secure Session Protocol",
     description: (
       <>
+      <div className="space-y-4 font-body text-base leading-relaxed text-white md:text-lg lg:text-xl">
         <p>
-          Sit duis est minim proident non nisi velit non consectetur. Esse
-          adipisicing laboris consectetur enim ipsum reprehenderit eu deserunt
-          Lorem ut aliqua anim do. Duis cupidatat qui irure cupidatat incididunt
-          incididunt enim magna id est qui sunt fugiat. Laboris do duis pariatur
-          fugiat Lorem aute sit ullamco. Qui deserunt non reprehenderit dolore
-          nisi velit exercitation Lorem qui do enim culpa. Aliqua eiusmod in
-          occaecat reprehenderit laborum nostrud fugiat voluptate do Lorem culpa
-          officia sint labore. Tempor consectetur excepteur ut fugiat veniam
-          commodo et labore dolore commodo pariatur.
+          GoblinWisp is a secure, infrastructure-less peer-to-peer communication framework for ESP32 resource-constrained devices built over the ESP-NOW protocol. While ESP-NOW is fast and lightweight, its native design does not guarantee secure session establishment, and it lacks essential protections such as peer authentication, dynamic key exchange, replay defense, and end-to-end message integrity.
         </p>
+
         <p>
-          Dolor minim irure ut Lorem proident. Ipsum do pariatur est ad ad
-          veniam in commodo id reprehenderit adipisicing. Proident duis
-          exercitation ad quis ex cupidatat cupidatat occaecat adipisicing.
+          To close these gaps, GoblinWisp adds a lightweight cryptographic security layer that upgrades ESP-NOW into a session-based secure channel. During session setup, devices perform an ephemeral key exchange (X25519 / ECDH) to generate a shared secret that is never transmitted over the air. This secret is expanded using HKDF-SHA256 into independent session keys for encryption and authentication.
         </p>
+
         <p>
-          Tempor quis dolor veniam quis dolor. Sit reprehenderit eiusmod
-          reprehenderit deserunt amet laborum consequat adipisicing officia qui
-          irure id sint adipisicing. Adipisicing fugiat aliqua nulla nostrud.
-          Amet culpa officia aliquip deserunt veniam deserunt officia
-          adipisicing aliquip proident officia sunt.
+          Once the session is established, every message is protected using AES-GCM authenticated encryption, ensuring confidentiality, integrity, and authenticity. To defeat replay attacks, each encrypted packet includes a monotonic counter / nonce policy; the receiver rejects stale or duplicated counters, preventing an attacker from retransmitting old valid packets to trigger actions.
         </p>
+
+        <p>
+          GoblinWisp is designed to be MITM-resistant by binding the session to expected peer identities through public key fingerprint / verification logic, ensuring that a third device cannot transparently insert itself between two nodes during key exchange.
+        </p>
+
+        <p>
+          Overall, GoblinWisp transforms ESP-NOW into a secure end-to-end communication channel that supports authenticated session establishment, strong encryption, tamper detection, and replay protection, without requiring routers, internet connectivity, or centralized authentication servers.
+        </p>
+      </div>
       </>
     ),
     badge: "React",
