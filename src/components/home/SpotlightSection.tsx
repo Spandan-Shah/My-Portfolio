@@ -1,4 +1,4 @@
-import gssp from "@/assets/GSSP.png";
+
 
 const SpotlightSection = () => (
   <section className="border-t border-border py-20">
@@ -12,7 +12,7 @@ const SpotlightSection = () => (
         <div className="relative flex items-center justify-center">
           <div className="absolute -inset-2 rounded-xl bg-gradient-to-br from-neon-red/20 to-neon-cyan/20 blur-xl" />
           <img
-            src={gssp}
+            src="GSSP"
             alt="Operation Dark Net"
             className="relative w-full max-w-md rounded-lg border border-border"
           />
