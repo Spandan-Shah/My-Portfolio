@@ -40,6 +40,7 @@ const Footer = () => (
           </div>
         </div>
 
+{/*
         <div>
           <h4 className="mb-4 font-jet text-md tracking-widest text-foreground">SERVICES</h4>
           <div className="flex flex-col gap-2">
@@ -48,7 +49,7 @@ const Footer = () => (
             ))}
           </div>
         </div>
-
+*/}
         <div>
           <h4 className="mb-4 font-jet text-md tracking-widest text-foreground">CONNECT</h4>
           <div className="flex gap-4">
