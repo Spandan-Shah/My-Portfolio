@@ -128,7 +128,7 @@ const HeroSection = () => (
           {skills.map((skill) => (
             <span
               key={skill}
-              className="rounded-sm border border-border bg-surface px-4 py-2 font-mono-cyber text-xs text-muted-foreground transition-colors hover:border-primary hover:text-primary"
+              className="rounded-sm border border-border bg-surface px-4 py-2 font-mono-cyber text-xl text-muted-foreground transition-colors hover:border-primary hover:text-primary"
             >
               {skill}
             </span>
