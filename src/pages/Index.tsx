@@ -19,7 +19,7 @@ const Index = () => (
         <SpyHUD />
       </div>
     </section>
-    <ExpertiseSection />
+    
     <SpotlightSection />
     <AlertsCasesSection />
 
