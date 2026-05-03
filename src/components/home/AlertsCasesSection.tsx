@@ -15,10 +15,10 @@ const alerts = [
 const cases = [
   {
     icon: FileSearch,
-    title: "Online Fraud Investigation",
-    desc: "Multi-jurisdictional investigation into a sophisticated phishing ring targeting financial institutions. Evidence collection phase completed with 2,400+ artifacts catalogued.",
+    title: "GoblinWisp Secure Session Protocol",
+    desc: "Secure Wireless Communication",
     status: "IN PROGRESS",
-    client: "Financial Crimes Unit",
+    client: "IEEE",
   },
 ];
 
