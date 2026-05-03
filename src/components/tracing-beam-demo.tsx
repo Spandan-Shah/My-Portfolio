@@ -185,13 +185,19 @@ badges: [
     description: (
       <>
         <p>
-          Ex irure dolore veniam ex velit non aute nisi labore ipsum occaecat
-          deserunt cupidatat aute. Enim cillum dolor et nulla sunt exercitation
-          non voluptate qui aliquip esse tempor. Ullamco ut sunt consectetur
-          sint qui qui do do qui do. Labore laborum culpa magna reprehenderit ea
-          velit id esse adipisicing deserunt amet dolore. Ipsum occaecat veniam
-          commodo proident aliqua id ad deserunt dolor aliquip duis veniam sunt.
+          Berlin is an intelligent computer vision–based traffic surveillance framework designed to transform traditional CCTV systems into automated traffic analysis platforms. The system leverages deep learning and real-time video processing to detect, track, and analyze vehicles from continuous video streams, enabling efficient monitoring without manual intervention.
         </p>
+        <br />
+
+        <p>
+          It integrates object detection, multi-object tracking, and optical character recognition (OCR) to extract key vehicle information such as identity, license plates, and movement patterns. Advanced modules such as vehicle classification and speed estimation provide deeper insights into traffic behavior, supporting data-driven decision-making.
+        </p>
+        <br />
+
+        <p>
+          The system follows a modular and scalable architecture, allowing seamless deployment in real-world environments such as smart cities, traffic monitoring systems, and automated law enforcement. By converting passive surveillance into actionable intelligence, Berlin enables proactive traffic management and enhances urban mobility analysis.
+        </p>
+        <br />
       </>
     ),
     badge: "Launch Week",
