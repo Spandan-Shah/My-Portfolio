@@ -107,8 +107,8 @@ const HeroSection = () => (
       {/* About Me + Focus Cards */}
       <div className="mt-20">
         <h2 className="mb-10 text-center font-display text-2xl font-bold tracking-wider md:text-3xl">
-          <span className="text-neon-cyan text-glow-cyan">About</span>{" "}
-          <span className="text-neon-magenta text-glow-magenta">Me</span>
+          <span className=" text-white">About</span>{" "}
+          <span className=" text-white">Me</span>
         </h2>
         <div className="grid gap-6 md:grid-cols-3">
           {focusCards.map((card, i) => (
