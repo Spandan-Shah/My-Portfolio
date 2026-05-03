@@ -119,7 +119,7 @@ badges: [
     image:GSSP,
   },
   {
-    title: "Lorem Ipsum Dolor Sit Amet",
+    title: "VigilantEdge",
     description: (
       <>
         <p>
