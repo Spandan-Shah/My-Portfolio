@@ -123,7 +123,7 @@ const HeroSection = () => (
 
       {/* Skills */}
       <div className="mt-16">
-        <h3 className="mb-6 font-display text-3xl tracking-widest text-foreground">MY SKILLS</h3>
+        <h3 className="mb-6 font-mono-cyber text-3xl tracking-widest text-foreground">MY SKILLS</h3>
         <div className="flex flex-wrap gap-3">
           {skills.map((skill) => (
             <span
