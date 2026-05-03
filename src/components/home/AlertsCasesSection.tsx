@@ -34,8 +34,8 @@ const AlertsCasesSection = () => (
         {/* Alerts */}
         <div>
           <p className="font-mono-cyber text-xs tracking-widest text-neon-cyan mb-2">// LIVE FEED</p>
-          <h2 className="mb-8 font-display text-xl font-bold tracking-wider text-foreground">
-            Cybersecurity <span className="text-primary">Alerts</span>
+          <h2 className="mb-8 font-mono-cyber text-xl font-bold tracking-wider text-foreground">
+            Patents
           </h2>
           <div className="space-y-4">
             {alerts.map((alert, i) => (
