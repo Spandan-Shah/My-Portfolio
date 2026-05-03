@@ -38,7 +38,7 @@ const AlertsCasesSection = () => (
                 <div className="mb-3 flex items-center justify-between">
                   <div className="flex items-center gap-2">
                     <alert.icon className="text-primary animate-pulse-glow" size={18} />
-                    <h3 className="font-display text-xs tracking-wider text-foreground">{alert.title}</h3>
+                    <h3 className="font-display text-md tracking-wider text-foreground">{alert.title}</h3>
                   </div>
                   <span className="rounded-sm bg-primary/20 px-2 py-0.5 font-mono-cyber text-[10px] text-primary">
                     {alert.severity}
