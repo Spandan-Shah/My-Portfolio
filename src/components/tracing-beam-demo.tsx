@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import GSSP from "@/assets/GSSP.png";
+import GSSP from "../../public/GSSP.png";
 
 
 import { twMerge } from "tailwind-merge";
