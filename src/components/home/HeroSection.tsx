@@ -136,21 +136,27 @@ const HeroSection = () => (
         </div>
       </div>
 
-      {/* 3D Threat Globe */}
-      <div className="mt-20">
-        <div className="mb-6 flex items-center gap-3">
-          <Globe className="text-primary" size={20} />
-          <h3 className="font-display text-sm tracking-widest text-foreground">GLOBAL THREAT SURVEILLANCE</h3>
-          <span className="rounded-sm bg-primary/20 px-2 py-0.5 font-mono-cyber text-[10px] text-primary animate-pulse-glow">
-            LIVE
-          </span>
-        </div>
-        <p className="mb-6 max-w-xl font-body text-sm text-muted-foreground leading-relaxed">
-          Real-time global threat monitoring across <span className="text-primary font-bold">20+ countries</span>.
-          Tracking missile trajectories, satellite networks, and intercepted communications.
-        </p>
-        <ThreatGlobe />
-      </div>
+{/*
+  <div className="mt-20">
+    <div className="mb-6 flex items-center gap-3">
+      <Globe className="text-primary" size={20} />
+      <h3 className="font-display text-sm tracking-widest text-foreground">
+        GLOBAL THREAT SURVEILLANCE
+      </h3>
+      <span className="rounded-sm bg-primary/20 px-2 py-0.5 font-mono-cyber text-[10px] text-primary animate-pulse-glow">
+        LIVE
+      </span>
+    </div>
+
+    <p className="mb-6 max-w-xl font-body text-sm text-muted-foreground leading-relaxed">
+      Real-time global threat monitoring across 
+      <span className="text-primary font-bold">20+ countries</span>.
+      Tracking missile trajectories, satellite networks, and intercepted communications.
+    </p>
+
+    <ThreatGlobe />
+  </div>
+*/}
     </div>
   </section>
 );
