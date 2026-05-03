@@ -63,7 +63,7 @@ const AlertsCasesSection = () => (
                 <div className="mb-3 flex items-center justify-between">
                   <div className="flex items-center gap-2">
                     <c.icon className="text-neon-cyan" size={18} />
-                    <h3 className="font-display text-xs tracking-wider text-foreground">{c.title}</h3>
+                    <h3 className="font-display text-md tracking-wider text-foreground">{c.title}</h3>
                   </div>
                   <span className="rounded-sm border border-neon-cyan/30 bg-neon-cyan/10 px-2 py-0.5 font-mono-cyber text-[10px] text-neon-cyan">
                     {c.status}
