@@ -123,20 +123,15 @@ badges: [
     description: (
       <>
         <p>
-          Ex irure dolore veniam ex velit non aute nisi labore ipsum occaecat
-          deserunt cupidatat aute. Enim cillum dolor et nulla sunt exercitation
-          non voluptate qui aliquip esse tempor. Ullamco ut sunt consectetur
-          sint qui qui do do qui do. Labore laborum culpa magna reprehenderit ea
-          velit id esse adipisicing deserunt amet dolore. Ipsum occaecat veniam
-          commodo proident aliqua id ad deserunt dolor aliquip duis veniam sunt.
+          VigilantEdge is an AI-driven adaptive Web Application Firewall designed to protect modern web and API-based systems from evolving cyber threats. It uses behavioral analysis, machine learning-based anomaly detection, Zero Trust principles, and autonomous response mechanisms to detect, analyze, and mitigate both known and unknown attacks in real time.
         </p>
+        <br />
+
         <p>
-          In dolore veniam excepteur eu est et sunt velit. Ipsum sint esse
-          veniam fugiat esse qui sint ad sunt reprehenderit do qui proident
-          reprehenderit. Laborum exercitation aliqua reprehenderit ea sint
-          cillum ut mollit.
+          The system works as a reverse-proxy security layer that continuously inspects HTTP and API traffic, identifies suspicious patterns, reduces false positives, and strengthens firewall rules using AI-assisted optimization. With self-healing actions, explainable AI, and scalable architecture, VigilantEdge aims to move web security from reactive defense toward proactive intelligent protection.
         </p>
-      </>
+        <br />
+              </>
     ),
     badge: "Changelog",
     image:
