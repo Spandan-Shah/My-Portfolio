@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import GSSP from "../../public/GSSP.png";
+
 
 
 import { twMerge } from "tailwind-merge";
@@ -116,7 +116,7 @@ badges: [
       </>
     ),
     badge: "",
-    image:GSSP,
+    image:"/GSSP.png",
   },
   {
     title: "VigilantEdge",
@@ -131,7 +131,7 @@ badges: [
           The system works as a reverse-proxy security layer that continuously inspects HTTP and API traffic, identifies suspicious patterns, reduces false positives, and strengthens firewall rules using AI-assisted optimization. With self-healing actions, explainable AI, and scalable architecture, VigilantEdge aims to move web security from reactive defense toward proactive intelligent protection.
         </p>
         <br />
-              </>
+      </>
     ),
     badges: [
   "Cybersecurity",
