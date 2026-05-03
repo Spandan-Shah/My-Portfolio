@@ -59,8 +59,8 @@ const AlertsCasesSection = () => (
         {/* Cases */}
         <div>
           <p className="font-mono-cyber text-xs tracking-widest text-neon-cyan mb-2">// CASE FILES</p>
-          <h2 className="mb-8 font-display text-xl font-bold tracking-wider text-foreground">
-            Recent <span className="text-primary">Cases</span>
+          <h2 className="mb-8 font-mono-cyber text-xl font-bold tracking-wider text-foreground">
+            Research Papers
           </h2>
           <div className="space-y-4">
             {cases.map((c, i) => (
