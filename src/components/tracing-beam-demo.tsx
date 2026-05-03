@@ -12,22 +12,26 @@ export default function TracingBeamDemo() {
       <div className="max-w-2xl mx-auto antialiased pt-4 relative">
         {dummyContent.map((item, index) => (
           <div key={index} className="mb-10">
-            <div className="mb-4 flex flex-wrap gap-2">
-              {(item.badges ?? [item.badge]).map((badge, i) => (
-  <span
-    key={i}
-    className="rounded-full border border-border bg-black px-3 py-1 text-lg text-white"
-  >
-    {badge}
-  </span>
-))}
-            </div>
 
-           <p className={twMerge("font-mono-cyber text-xl mb-4")}> 
+            {/* Title FIRST */}
+            <p className={twMerge("font-mono-cyber text-xl mb-4")}>
               {item.title}
             </p>
 
-            <div className="text-sm  prose prose-sm dark:prose-invert">
+            {/* Badges AFTER title */}
+            <div className="mb-4 flex flex-wrap gap-2">
+              {(item.badges ?? [item.badge]).map((badge, i) => (
+                <span
+                  key={i}
+                  className="rounded-full border border-border bg-black px-3 py-1 text-lg text-white"
+                >
+                  {badge}
+                </span>
+              ))}
+            </div>
+
+            {/* Content */}
+            <div className="text-sm prose prose-sm dark:prose-invert">
               {item?.image && (
                 <img
                   src={item.image}
@@ -39,6 +43,7 @@ export default function TracingBeamDemo() {
               )}
               {item.description}
             </div>
+
           </div>
         ))}
       </div>
