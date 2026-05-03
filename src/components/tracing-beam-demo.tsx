@@ -9,7 +9,7 @@ import { TracingBeam } from "@/components/ui/tracing-beam";
 export default function TracingBeamDemo() {
   return (
 
-    <div className="relative overflow-hidden">
+    <section className="pb-24 overflow-hidden">
     <TracingBeam className="px-6">
       <div className="max-w-2xl mx-auto antialiased pt-4 relative">
         {dummyContent.map((item, index) => (
@@ -50,7 +50,7 @@ export default function TracingBeamDemo() {
         ))}
       </div>
     </TracingBeam>
-    </div>
+    </section>
   );
 }
 
