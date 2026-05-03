@@ -87,18 +87,22 @@ badges: [
         <p>
           GoblinWisp is a secure, infrastructure-less peer-to-peer communication framework for ESP32 resource-constrained devices built over the ESP-NOW protocol. While ESP-NOW is fast and lightweight, its native design does not guarantee secure session establishment, and it lacks essential protections such as peer authentication, dynamic key exchange, replay defense, and end-to-end message integrity.
         </p>
+        <br></br>
 
         <p>
           To close these gaps, GoblinWisp adds a lightweight cryptographic security layer that upgrades ESP-NOW into a session-based secure channel. During session setup, devices perform an ephemeral key exchange (X25519 / ECDH) to generate a shared secret that is never transmitted over the air. This secret is expanded using HKDF-SHA256 into independent session keys for encryption and authentication.
         </p>
+        <br></br>
 
         <p>
           Once the session is established, every message is protected using AES-GCM authenticated encryption, ensuring confidentiality, integrity, and authenticity. To defeat replay attacks, each encrypted packet includes a monotonic counter / nonce policy; the receiver rejects stale or duplicated counters, preventing an attacker from retransmitting old valid packets to trigger actions.
         </p>
+        <br></br>
 
         <p>
           GoblinWisp is designed to be MITM-resistant by binding the session to expected peer identities through public key fingerprint / verification logic, ensuring that a third device cannot transparently insert itself between two nodes during key exchange.
         </p>
+        <br></br>
 
         <p>
           Overall, GoblinWisp transforms ESP-NOW into a secure end-to-end communication channel that supports authenticated session establishment, strong encryption, tamper detection, and replay protection, without requiring routers, internet connectivity, or centralized authentication servers.
