@@ -83,7 +83,7 @@ badges: [
 ],
     description: (
       <>
-      <div className="space-y-4 font-body text-base leading-relaxed text-white md:text-lg lg:text-xl">
+      
         <p>
           GoblinWisp is a secure, infrastructure-less peer-to-peer communication framework for ESP32 resource-constrained devices built over the ESP-NOW protocol. While ESP-NOW is fast and lightweight, its native design does not guarantee secure session establishment, and it lacks essential protections such as peer authentication, dynamic key exchange, replay defense, and end-to-end message integrity.
         </p>
@@ -103,7 +103,7 @@ badges: [
         <p>
           Overall, GoblinWisp transforms ESP-NOW into a secure end-to-end communication channel that supports authenticated session establishment, strong encryption, tamper detection, and replay protection, without requiring routers, internet connectivity, or centralized authentication servers.
         </p>
-      </div>
+      
       </>
     ),
     badge: "",
