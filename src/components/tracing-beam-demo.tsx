@@ -14,7 +14,7 @@ export default function TracingBeamDemo() {
           <div key={index} className="mb-10">
 
             {/* Title FIRST */}
-            <p className={twMerge("font-mono-cyber text-xl mb-4")}>
+            <p className={twMerge("font-mono-cyber text-xl mb-4 text-green-600")}>
               {item.title}
             </p>
 
