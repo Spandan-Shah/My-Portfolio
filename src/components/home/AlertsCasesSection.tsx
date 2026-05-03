@@ -3,18 +3,13 @@ import { AlertTriangle, FileSearch, ShieldAlert } from "lucide-react";
 const alerts = [
   {
     icon: ShieldAlert,
-    title: "Data Breach Detected",
-    desc: "Critical vulnerability exploited in client's cloud infrastructure. Immediate containment initiated.",
-    severity: "CRITICAL",
-    time: "2 hours ago",
+    title: "GoblinWisp Secure Session Protocol",
+    desc: "Secure Wireless Communication",
+    severity: "IN PROGRESS",
+    time: "1 Month Ago",
+    
   },
-  {
-    icon: AlertTriangle,
-    title: "Ransomware Attack In Progress",
-    desc: "LockBit 4.0 variant detected propagating through lateral movement. Isolation protocol active.",
-    severity: "HIGH",
-    time: "5 hours ago",
-  },
+
 ];
 
 const cases = [
