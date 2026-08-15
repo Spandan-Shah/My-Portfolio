@@ -1,50 +1,65 @@
-# Logs
-logs
-*.log
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# build output
+/build/
+/dist/
+/.vinext/
+
+# local / AI tooling
+/.openai/
+
+# misc
+.DS_Store
+*.pem
+Thumbs.db
+
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+.pnpm-debug.log*
 
-# Dependencies
-node_modules
-
-# Build output
-dist
-dist-ssr
-coverage
-.cache
-.parcel-cache
-
-# Local env files
-*.local
-.env
-.env.*
+# env files
+.env*
 !.env.example
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-Thumbs.db
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-.eslintcache
+# vercel
+.vercel
 
-# TypeScript
-*.tsbuildinfo
+# typescript
+next-env.d.ts
 
-# Vite
-vite.svg
+# cloud / runtime output
+/.wrangler/
+/.sites-runtime/
+/outputs/
+/work/
 
-# Temp
-tmp
-temp
+# local database files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite-journal
+*.sqlite3-journal
 
-# Media
-*.mp4
+# optional npm credentials/config
+# Uncomment this ONLY if .npmrc contains auth tokens or private registry credentials
+# .npmrc
